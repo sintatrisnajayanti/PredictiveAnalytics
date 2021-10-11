@@ -11,7 +11,7 @@ Berikut adalah problem statement dari proyek ini:
 ### Goals
 Berikut adalah goals yang ingin dicapai dalam proyek ini:
 *	Mengetahui fitur apa saja yang mempengaruhi biaya asuransi seorang nasabah
-*	Mengetahui model terbaik dalam Machine Learning untuk memprediksi biaya asuransi yang dibayar seorang nasabah
+*	Mengetahui model terbaik dalam Machine Learning untuk memprediksi biaya asuransi yang harus dibayar seorang nasabah
 ### Solution statements
 Untuk mencapai tujuan memprediksi biaya asuransi kesehatan ini saya menggunakan tiga model Machine Learning. Dimana ketiga model ini cocok untuk data regresi karena output yang diprediksi adalah sebuah angka. Berikut penjelasan secara singkat mengenai tiga model yang saya gunakan: 
 *	**SVR (Support Vector Regression)**
@@ -110,5 +110,5 @@ Hasil dari evaluation model pada proyek ini mengenai prediksi harga/ biaya asura
  
 ## Kesimpulan
 Kesimpulan yang didapat dalam memprediksi harga/ biaya asuransi pada proyek ini adalah sebagai berikut: 
-•	Perokok atau tidak perokok mempengaruhi harga/biaya asuransi seorang nasabah
-•	Model yang lebih akurat dalam memprediksi harga/biaya asuransi pada proyek ini adalah menggunakan model Random Forest Regression dengan memiliki accuracy prediksi tertinggi yaitu 81% dan nilai RMSE terendah. 
+*	Perokok atau tidak perokok mempengaruhi harga/biaya asuransi seorang nasabah
+*	Model yang lebih akurat dalam memprediksi harga/biaya asuransi pada proyek ini adalah menggunakan model Random Forest Regression dengan memiliki accuracy prediksi tertinggi yaitu 81% dan nilai RMSE terendah. 
