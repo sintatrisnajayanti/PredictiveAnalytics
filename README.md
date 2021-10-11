@@ -23,7 +23,7 @@ Untuk mencapai tujuan memprediksi biaya asuransi kesehatan ini saya menggunakan 
 ## Data Understanding
 Dataset yang saya gunakan berasal dari kaggle yang merupakan salah satu platform di bidang Data Science. Pada proyek ini saya menggunakan dataset [berikut](https://www.kaggle.com/noordeen/insurance-premium-prediction) dimana sesuai dengan topik yang saya ambil yaitu mengenai data nasabah asuransi. Dataset ini memiliki 1338 data yang memiliki fitur numerik dan kategorikal sebagai berikut: 
 * age: Usia dari Nasabah (fitur numerik) 
-* sex: jenis kelamin dari nasabah (fitur kategorikal)
+* sex: Jenis kelamin dari nasabah (fitur kategorikal)
  	* female: Perempuan
 * male: Laki-laki
 * bmi: Indeks massa tubuh dari nasabah. Memberikan pemahaman tentang tubuh, bobot yang relatif tinggi atau rendah (fitur numerik)
@@ -36,7 +36,7 @@ Dataset yang saya gunakan berasal dari kaggle yang merupakan salah satu platform
 * southwest: Barat daya
  	* northwest: Barat laut
  	* northeast: Timur laut 
-* expenses: biaya yang dibayarkan nasabah ke perusahaan asuransi (fitur numerik) 
+* expenses: Biaya yang dibayarkan nasabah ke perusahaan asuransi (fitur numerik) 
 
 
 Untuk memahami sebuah data dengan memiliki jumlah yang banyak akan lebih efisien jika kita menggunakan yang disebut dengan visualisasi data. Dalam proyek ini, menggunakan beberapa visualisasi yang ada. 
@@ -66,7 +66,7 @@ Pada pairplots di atas dapat dilihat bahwa pada diagonal pairplots  smoker dapat
  *	Perokok relatif muda (di bawah 30 tahun).
  *	Nasabah memiliki indeks bmi yang lebih rendah dibandingkan dengan bukan perokok.
  *	Nasabah memiliki lebih sedikit anak daripada bukan perokok . Pernyataan tersebut masuk akal juga karena umurnya masih muda 
- *	Yang paling penting, biaya atau harga asuransi pengobatan nasabah secara signifikan lebih tinggi dibandingkan dengan non perokok, yang berarti bahwa merokok mungkin memiliki kekuatan prediksi.
+ *	Yang paling penting, biaya asuransi pengobatan nasabah secara signifikan lebih tinggi dibandingkan dengan non perokok, yang berarti bahwa merokok mungkin memiliki kekuatan prediksi.
  * Trdapat hubungan lain dalam plot expenses-age dan expenses-bmi
 Lalu untuk melihat hubungan lebih jelas mengenai fitur expenses-age dan expenses-bmi saya menggunakan visualisasi data yaitu lmplot. 
 
@@ -105,10 +105,10 @@ Keterangan:
 
 ![messageImage_1633943558953](https://user-images.githubusercontent.com/89082302/136764689-24725b4d-64ee-4772-a7e0-4b618eee31c8.jpg)
 
-Hasil dari evaluation model pada proyek ini mengenai prediksi harga/ biaya asuransi dapat dilihat pada gambar di bawah ini. Dimana accuracy prediksi tertinggi jika menggunakan model Random Forest Regression dan juga nilai RMSE model in paling rendah. Maka untuk prediksi yang lebih akurat menggunakan model Random Forest Regression. 
+Hasil dari evaluation model pada proyek ini mengenai prediksi biaya asuransi dapat dilihat pada gambar di bawah ini. Dimana accuracy prediksi tertinggi jika menggunakan model Random Forest Regression dan juga nilai RMSE model in paling rendah. Maka untuk prediksi yang lebih akurat menggunakan model Random Forest Regression. 
      
  
 ## Kesimpulan
-Kesimpulan yang didapat dalam memprediksi harga/ biaya asuransi pada proyek ini adalah sebagai berikut: 
-*	Perokok atau tidak perokok mempengaruhi harga/biaya asuransi seorang nasabah
-*	Model yang lebih akurat dalam memprediksi harga/biaya asuransi pada proyek ini adalah menggunakan model Random Forest Regression dengan memiliki accuracy prediksi tertinggi yaitu 81% dan nilai RMSE terendah. 
+Kesimpulan yang didapat dalam memprediksi biaya asuransi pada proyek ini adalah sebagai berikut: 
+*	Perokok atau tidak perokok mempengaruhi biaya asuransi seorang nasabah
+*	Model yang lebih akurat dalam memprediksi biaya asuransi pada proyek ini adalah menggunakan model Random Forest Regression dengan memiliki accuracy prediksi tertinggi yaitu 81% dan nilai RMSE terendah. 
