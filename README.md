@@ -29,11 +29,11 @@ Dataset yang saya gunakan berasal dari kaggle yang merupakan salah satu platform
 * bmi: Indeks massa tubuh dari nasabah. Memberikan pemahaman tentang tubuh, bobot yang relatif tinggi atau rendah (fitur numerik)
 * children: Jumlah anak yang ditanggung oleh asuransi kesehatan atau jumlah tanggungan (fitur numerik)
 * smoker: Apakah nasabah perokok atau tidak (fitur kategorikal)
-  	* yes: Perokok
+ 	* yes: Perokok
  	* no: Tidak perokok
- * region: Daerah perumahan dari nasabah (fitur kategorikal)
+* region: Daerah perumahan dari nasabah (fitur kategorikal)
  	* southeast: Tenggara
-  * southwest: Barat daya
+ 	* southwest: Barat daya
  	* northwest: Barat laut
  	* northeast: Timur laut 
 * expenses: Biaya yang dibayarkan nasabah ke perusahaan asuransi (fitur numerik) 
