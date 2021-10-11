@@ -51,6 +51,7 @@ Kemudian memisahkan fitur numerik dan kategorikal dengan analisis Univariate dan
 ![messageImage_1633942706804](https://user-images.githubusercontent.com/89082302/136762670-c0102860-7f51-4967-938b-5fd440a313ba.jpg)
 
 Dilihat dari diagram diatas bahwa pada fitur kategorikal jumlah male dan female pada sampel hampir sama.  Kemudian  80% data pada sampel menunjukan bahwa nasabah tidak perokok dan 20% sebagai perokok. Lalu pada region dapat dilihat terbanyak nasabah daerah perumahan di southeast dan merata pada  southwest, northwest, northeast. 
+
 Selanjutnya saya akan membahas mengenai fitur numerik dari analisis Univariate. Di bawah ini adalah visualisasi data dengan menggunakan hist. Pada fitur age banyak nasabah memiliki umur sekitar 20 tahun dan kebanyakan nasabah tidak memiliki anak dan hanya sebagian kecil yang memiliki lebih dari tiga anak. Kemudian pada target yaitu exspenses gambar menunjukkan biaya asuransi pengobatan rendah untuk sebagian nasabah dan distribusinya bersifat logaritmik. Dari hasil ini, bisa disimpulkan bahwa banyak nasabah yang membayar asuransi sekitar 10.000$. 
 
 ![messageImage_1633942762323](https://user-images.githubusercontent.com/89082302/136762763-5cd45db2-aa64-43ac-bec8-cd9c4678d6af.jpg)
