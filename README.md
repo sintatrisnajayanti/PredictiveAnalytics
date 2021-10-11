@@ -25,7 +25,7 @@ Dataset yang saya gunakan berasal dari kaggle yang merupakan salah satu platform
 * age: Usia dari Nasabah (fitur numerik) 
 * sex: Jenis kelamin dari nasabah (fitur kategorikal)
  	* female: Perempuan
-* male: Laki-laki
+  * male: Laki-laki
 * bmi: Indeks massa tubuh dari nasabah. Memberikan pemahaman tentang tubuh, bobot yang relatif tinggi atau rendah (fitur numerik)
 * children: Jumlah anak yang ditanggung oleh asuransi kesehatan atau jumlah tanggungan (fitur numerik)
 * smoker: Apakah nasabah perokok atau tidak (fitur kategorikal)
