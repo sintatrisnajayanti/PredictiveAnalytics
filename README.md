@@ -42,7 +42,7 @@ Dataset yang saya gunakan berasal dari kaggle yang merupakan salah satu platform
 Untuk memahami sebuah data dengan memiliki jumlah yang banyak akan lebih efisien jika kita menggunakan yang disebut dengan visualisasi data. Dalam proyek ini, menggunakan beberapa visualisasi yang ada. 
 
 Yang pertama yaitu melihat apakah terdapat outlier pada data. Outlier adalah data yang menyimpang terlalu jauh dari data yang lainnya dalam suatu rangkaian data. Dimana disini visualisasi data outlier dilakukan pada fitur numerik seperti age, children, bmi, expenses dengan menggunakan box
-pada pandas. Dapat dilihat bahwa fitur children memiliki outlier dan pada code juga menunjukkan bahwa fitur children memiliki outlier sebanyak 574 data. 
+pada pandas. 
 
 ![messageImage_1633942610750](https://user-images.githubusercontent.com/89082302/136762431-eeeed6b0-143c-45a1-93b7-3a5b4530e1ac.jpg)
 
