@@ -12,7 +12,7 @@ Berikut adalah problem statement dari proyek ini:
 Berikut adalah goals yang ingin dicapai dalam proyek ini:
 *	Mengetahui fitur apa saja yang mempengaruhi biaya asuransi seorang nasabah
 *	Mengetahui model terbaik dalam Machine Learning untuk memprediksi biaya asuransi yang harus dibayar seorang nasabah
-### Solution statements
+### Solution Statements
 Untuk mencapai tujuan memprediksi biaya asuransi kesehatan ini saya menggunakan tiga model Machine Learning. Dimana ketiga model ini cocok untuk data regresi karena output yang diprediksi adalah sebuah angka. Berikut penjelasan secara singkat mengenai tiga model yang saya gunakan: 
 *	**SVR (Support Vector Regression)**
 <br>Algoritma SVR adalah teori yang diadaptasi dari teori machine learning yang sudah digunakan untuk memecahkan masalah klasifikasi, yaitu Support Vector Machine (SVM). SVR ini adalah penerapan algoritma SVM dalam kasus regresi. Konsep algoritma SVR dapat menghasilkan nilai peramalam yang bagus karena SVR mempunyai kemampuan menyelesaiakan masalah overfitting ([Furi, Jordi, & Saepudin, 2015](https://journal.universitasbumigora.ac.id/index.php/matrik/article/download/511/390/ )).</br>
