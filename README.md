@@ -33,7 +33,7 @@ Dataset yang saya gunakan berasal dari kaggle yang merupakan salah satu platform
  	* no: Tidak perokok
  * region: Daerah perumahan dari nasabah (fitur kategorikal)
  	* southeast: Tenggara
-* southwest: Barat daya
+  * southwest: Barat daya
  	* northwest: Barat laut
  	* northeast: Timur laut 
 * expenses: Biaya yang dibayarkan nasabah ke perusahaan asuransi (fitur numerik) 
