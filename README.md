@@ -19,7 +19,7 @@ Untuk mencapai tujuan memprediksi biaya asuransi kesehatan ini saya menggunakan 
 *	**Decision Tree Regression**
 <br>[Decision Tree](https://www.megabagus.id/machine-learning-decision-tree-regression/) adalah teknik pengambilan keputusan dengan analogi sebuah pohon memiliki banyak cabang/ akar. Di mana satu cabang akan bercabang lagi, kemudian bercabang lagi, dan seterusnya. Dalam konteks regresi, maka decision tree adalah regresi yang bersifat non-linear dan non-kontinu (diskret).</br>
 *	**Random Forest Regression**
-<br>[Regresi Random Forest](http://etd.repository.ugm.ac.id/penelitian/detail/97918) merupakan gabungan dari banyak CART yang ditumbuhkan sehingga akurasi yang dihasilkan akan lebih akurat dari pohon tunggal. </br>
+<br>[Regresi Random Forest](http://etd.repository.ugm.ac.id/penelitian/detail/97918) merupakan gabungan dari banyak CART yang ditumbuhkan sehingga akurasi yang dihasilkan akan lebih akurat dari pohon tunggal. Adapun kelebihan dan kekurangan pada algoritma ini yaitu kelebihannya dapat mengatasi noise dan missing value serta dapat mengatasi data dalam jumlah yang besar. Kemudian kekurangan pada algoritma Random Forest yaitu interpretasi yang sulit dan membutuhkan tuning model yang tepat untuk data. </br>
 ## Data Understanding
 Dataset yang saya gunakan berasal dari kaggle yang merupakan salah satu platform di bidang Data Science. Pada proyek ini saya menggunakan dataset [berikut](https://www.kaggle.com/noordeen/insurance-premium-prediction) dimana sesuai dengan topik yang saya ambil yaitu mengenai data nasabah asuransi. Dataset ini memiliki 1338 data yang memiliki fitur numerik dan kategorikal sebagai berikut: 
 * age: Usia dari Nasabah (fitur numerik) 
