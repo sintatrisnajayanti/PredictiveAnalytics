@@ -80,21 +80,23 @@ Pada data preparation ini saya menggunakan One-Hot_Encoding yaitu salah satu met
 ![messageImage_1633943353191](https://user-images.githubusercontent.com/89082302/136764197-ac261291-f58c-4fc1-8695-cef5e3dbe377.jpg)
 
 Kemudian terdapat metode train-test-split dimana berfungsi untuk membagi data menjadi data latih dan data uji dijalankan sebelum membuat model. Dengan melakukan hal ini dapat melatih data untuk mencari korelasinya sendiri atau belajar pola dari data yang diberikan kemudian dilihat keakuratannya atau performa dari model nantinya. 
-Selanjutnya menggunakan metode standarisasi dimana metode ini akan membuat mean data menjadi 0 dan standar deviasi menjadi 1. Metode ini juga membantu proses pelatihan model agar prediksi menjadi lebih akurat. Berikut adalah rumus standarisasi: 
-
-![messageImage_1633943410807](https://user-images.githubusercontent.com/89082302/136764319-121b12ad-ff02-43b2-b316-ef4fc17983c0.jpg)
-
-Keterangan: 
-<br>x = Fitur dari kolom </br>
-<br>μ = mean </br>
-<br>σ = standar deviasi </br>
+Selanjutnya menggunakan metode standarisasi dimana metode ini akan membuat mean data menjadi 0 dan standar deviasi menjadi 1. Metode ini juga membantu proses pelatihan model agar prediksi menjadi lebih akurat. 
 ## Modeling
 Pada modeling proyek yang saya buat ini mencoba untuk menyelesaikan masalah menggunakan tiga solusi yaitu, SVR (Support Vector Regression), Decision Tree Regression, Random Forest Regression. Kemudian pada tahap ini juga saya melakukan improvement terhadap model seperti hyperparameter tuning. Dimana hyperparameter tuning ini adalah proses untuk menemukan nilai parameter yang dapat menghasilkan model dengan performa yang lebih baik dalam pelatihan model. Pada SVR menggunakan parameter gamma="auto", kernel="linear", C=1000. Kemudian pada Decision Tree Regression menggunakan parameter max_depth=5, random_state=13. Pada solusi terakhir menggunakan parameter n_estimators=400, max_depth=5, random_state=13. 
-Untuk membandingkan ketiga model ini akan dilakukan penghitungan nilai dari Training Accuracy, Testing Accuracy, RMSE Training Data, RMSE Testing Data, dan Accuracy dari prediksi. Setelah dilakukan pelatihan maka dapat dilihat bahwa jika menggunakan model Random Forest Regression akan menghasilkan accuracy dari prediksi yang tinggi yaitu 81% dan RMSE yang rendah. 
+Untuk membandingkan ketiga model ini akan dilakukan penghitungan nilai dari Training Accuracy, Testing Accuracy, RMSE Training Data, RMSE Testing Data, dan Accuracy dari prediksi. Setelah dilakukan pelatihan maka dapat dilihat bahwa jika menggunakan model Random Forest Regression akan menghasilkan accuracy dari prediksi yang tinggi yaitu 81% dan RMSE yang terrendah. Hasil dari prediksi model terhadap data uji dapat dilihat pada gambar berikut:
+
+![messageImage_1633943558953](https://user-images.githubusercontent.com/89082302/137136139-c5391071-ca9e-4838-a1fb-d50f94cd8bb3.jpg)
 
 ## Evaluation
-Pada tahap evaluation ini saya akan menjelaskan mengenai metrik yang digunakan dalam prediksi proyek saya dengan menggunakan metrik RMSE (Root Mean Squared Error)  nilai RMSE.  Dimana RMSE menghitung seberapa berbedanya seperangkat nilai. Semakin kecil nilai RMSE, semakin dekat nilai yang diprediksi dan diamati. Untuk menghitung nilai dari RMSE menggunakan rumus berikut: 
+Pada tahap evaluation ini saya akan menjelaskan mengenai metrik yang digunakan dalam prediksi proyek saya yaitu metriks r2_score dan metriks RMSE (Root Mean Squared Error) . r2_score disebut juga dengan koefisien determinasi yaitu sebuah nilai yang menyatakan seberapa sesuai hasil prediksi yang digunakan untuk mengevaluasi kinerja model regresi linier . Semakin besar r2_score, maka hasil prediksi semakin dekat dengan data yang sebenarnya. Semakin besar r2_score maka model semakin bagus. Nilai maksimum untuk r2_score yaitu 100% dan tidak ada nilai negatif. Berikut adalah rumus dari R²: 
 
+![messageImage_1634131833276](https://user-images.githubusercontent.com/89082302/137142505-9b7186f9-3fd7-45f0-a4cd-a2ddfe1f574d.jpg)
+
+Keterangan: 
+<br>SS res = jumlah kuadrat dari kesalahan residual</br>
+<br>SS tot = jumlah total kesalahan</br>
+
+Kemudian disini juga menggunakan metriks RMSE untuk menghitung seberapa berbedanya seperangkat nilai. Semakin kecil nilai RMSE, semakin dekat nilai yang diprediksi dan diamati. Untuk menghitung nilai dari RMSE menggunakan rumus berikut:
 ![messageImage_1633943461852](https://user-images.githubusercontent.com/89082302/136764545-5708bca7-1bc3-485b-9e26-8ebd2c205eef.jpg)
 
 Keterangan: 
@@ -106,7 +108,7 @@ Keterangan:
 
 ![messageImage_1633943558953](https://user-images.githubusercontent.com/89082302/136764689-24725b4d-64ee-4772-a7e0-4b618eee31c8.jpg)
 
-Hasil dari evaluation model pada proyek ini mengenai prediksi biaya asuransi dapat dilihat pada gambar di bawah ini. Dimana accuracy prediksi tertinggi jika menggunakan model Random Forest Regression dan juga nilai RMSE model in paling rendah. Maka untuk prediksi yang lebih akurat menggunakan model Random Forest Regression. 
+Hasil dari evaluation model pada proyek ini mengenai prediksi biaya asuransi dapat dilihat pada gambar di atas ini. Dimana accuracy prediksi tertinggi jika menggunakan model Random Forest Regression dan juga nilai RMSE model paling rendah. Maka untuk prediksi yang lebih akurat menggunakan model Random Forest Regression. 
      
  
 ## Kesimpulan
